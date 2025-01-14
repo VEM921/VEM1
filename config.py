@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", "7751319212"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "DIL_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "@Aaru_Music_Ro_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -86,12 +86,12 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/sNF.jpg"
+    "START_IMG_URL", "https://envs.sh/vLZ.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/sNt.jpg"
+    "PING_IMG_URL", "https://envs.sh/vLL.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/sNi.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/vL5.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/4a7c28726502e24ea0fe0.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/810f874873e1565cf5732.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/16d7dd76f4ce8b8b01fdf.jpg"
